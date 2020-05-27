@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* STYLE CSS
+** 2019-07-31
+** by Molly
+*/
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body,textarea { font:normal 12px "微软雅黑",Arial,sans-serif; }
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ margin:0;padding:0;}
+table{ border-collapse:collapse; border-spacing:0;}
+fieldset,img{ border:0;}
+a{ text-decoration:none; color:#333;}
+address,caption,cite,code,dfn,em,strong,th,var,b { font-style:normal; font-weight:normal;} 
+ol li,ul li{ list-style:none;}
+caption { text-align:left;}
+h1,h2,h3,h4,h5,h6 { font-size:100%;font-weight:normal; }
+q:before,q:after { content:'';}
+abbr,acronym { border:0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+html, body {background: #fff;width: 100%;min-width: 1280px;overflow-x: auto;height:auto;min-height: 100vh;}
+.w-full{width:100%;overflow: hidden;}
+.w-1280{width: 1280px;margin:0 auto;overflow: hidden;}
+.w-1650{width:1650px;margin-left:-825px;left:50%;position:relative;overflow: hidden;}
+.w-1920{width:1920px;margin-left:-960px;left:50%;position:relative;overflow: hidden;}
+.w{width:1190px; margin:0 auto;}
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1;/* IE 7/6 */}
+.pointer{ cursor:pointer;}
+.hidden{ visibility:hidden!important;}
+.block{ display:block!important;}
+.inline{ display:inline!important;}
+.hide{display:none!important;}
+.fl{float: left;}
+.fr{float: right;}
+.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ellipsis--l2{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.ellipsis--l3{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+
+[v-clock]{display: none;}
+.flex-box{display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;}
+.flex-center{/* Center slide text vertically */display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}
