@@ -19,8 +19,8 @@ gulp.task("copy-html", function () {
 
 //图片
 gulp.task("images", function () {
-    return gulp.src("*.{jpg,png}")
-        .pipe(gulp.dest("dist/images"))
+    return gulp.src("./img/*.{jpg,png,svg}")
+        .pipe(gulp.dest("dist/img"))
         .pipe(connect.reload());
 })
 

@@ -30,7 +30,7 @@ body img{min-width:100% ;}
 .header-nav a:hover {text-decoration: none;} 
 .header-logo{width:125px;height:100%;margin: 0px;}
 .logo-inner{width:53px;height:29px;line-height:1;display:inline-block;margin-top:34px;overflow:hidden;margin-left:36px}
-.nav-list{margin-right:70px;overflow:initial;width: 1200px;float: right;}
+.nav-list{margin-right:70px;overflow:initial;float: right;}
 .nav-item{display:inline-block;padding:0 25px;margin-left:-1px;height:98px;line-height:98px;vertical-align:middle}
 .nav-item.last,.nav-item:last-child{margin-right:0}
 .nav-item a,.nav-item a:hover{color:#000;font-size:17px;font-weight:600}
@@ -50,3 +50,12 @@ body img{min-width:100% ;}
 .sub-nav-item li{height:25px;line-height:25px}
 .sub-nav-item a,
 .sub-nav-item a:hover{display:inline-block;font-size:13px;font-weight:400;color:#333;max-width:100%;height:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.shengti {width: 100%;}
+.lunbo {position: relative;height: 610px; width: 100%;overflow: hidden;}
+.lunbo ul { position: absolute; left: -190px;top: 0;  z-index: 1;width: 8000px; }
+.lunbo ul li {  float: left; }
+.lunbo ul img { float: left;  }
+.yuan {height: 20px;position: relative;margin-bottom: 10px;padding-left: 48%;}
+.yuan span{display: inline-block; width: 15px;height:15px; border-radius: 8px;border: #4e4e4e;border: 3px solid #ccc ;margin: 5px;}
+.yuanspan {background: #ccc;}
+.active {background: #ccc;}
