@@ -16,15 +16,7 @@ $(function () {
         tab();
     }, 4000);
 
-    //添加移入移出
-    $("#play").mouseenter(function () {
-        clearInterval(timer);
-    }).mouseleave(function () {
-        timer = setInterval(function () {
-            iNow++;
-            tab();
-        }, 2000);
-    })
+   
 
 
     //切换，单独封装成函数
@@ -46,5 +38,12 @@ $(function () {
             }
         });
     }
+    //关晓彤等移入移除
+   var hh=$(".hoverup-inner").find("a")
+    hh.mouseenter(function () {
+        $(".hoverup-inner").find("div").addClass("yiru");
+    }).mouseleave(function () {
+        $(".hoverup-inner").find("div").removeClass("yiru")
+    })
 
 })

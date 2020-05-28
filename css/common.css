@@ -54,8 +54,43 @@ body img{min-width:100% ;}
 .lunbo {position: relative;height: 610px; width: 100%;overflow: hidden;}
 .lunbo ul { position: absolute; left: -190px;top: 0;  z-index: 1;width: 8000px; }
 .lunbo ul li {  float: left; }
-.lunbo ul img { float: left;  }
+.lunbo ul img { float: left; }
 .yuan {height: 20px;position: relative;margin-bottom: 10px;padding-left: 48%;}
 .yuan span{display: inline-block; width: 15px;height:15px; border-radius: 8px;border: #4e4e4e;border: 3px solid #ccc ;margin: 5px;}
 .yuanspan {background: #ccc;}
 .active {background: #ccc;}
+.gxt a img {width: 300px ;height: 579px;}
+.hoverup-item {
+    float: left;
+    width: 300px;
+    height: 579px;
+    max-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.hoverup-inner {
+    height: 100%;
+    overflow: hidden;
+    width: 1200px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+}
+.hoverup-item div{
+    padding-top: 35%;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+    
+}
+.yiru{
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    position: absolute;
+    background: rgba(0, 0,0, 0.4);
+    }
