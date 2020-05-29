@@ -60,14 +60,7 @@ body img{min-width:100% ;}
 .yuanspan {background: #ccc;}
 .active {background: #ccc;}
 .gxt a img {width: 300px ;height: 579px;}
-.hoverup-item {
-    float: left;
-    width: 300px;
-    height: 579px;
-    max-height: 100%;
-    position: relative;
-    overflow: hidden;
-}
+.hoverup-item {float: left;width: 300px;height: 579px;max-height: 100%;position: relative;overflow: hidden;}
 .hoverup-inner {
     height: 100%;
     overflow: hidden;
@@ -78,14 +71,15 @@ body img{min-width:100% ;}
     margin-left: -600px;
 }
 .hoverup-item div{
-    padding-top: 35%;
-    height: 100%;
+    
+    height: 579px;
     width: 100%;
     top: 0;
     left: 0;
     
     
 }
+.yiru1 { position: absolute;bottom: 0;}
 .yiru{
     transition: all .5s;
     -moz-transition: all .5s;
@@ -94,3 +88,81 @@ body img{min-width:100% ;}
     position: absolute;
     background: rgba(0, 0,0, 0.4);
     }
+
+.goods{height: 790px;margin-left: 120px; width:1200px;background: #ffffff;;padding:10px }
+.goods-ads{float:left;background:0 0;overflow:hidden;margin-top:15px}
+.goods-ads.goods-ads-v{height:690px;width:290px}
+.goods-item{margin-bottom:8px;position:relative;float:left;width:285px;height:345px;top:0;margin-right:5px;transition:.2s;-webkit-transition:.2s;-moz-transition:.2s}
+.goods-item.hover{top:-30px}
+.goods-body{padding:15px;width:100%;background:#fff;position:absolute;top:0;left:0;transition:.2s;-webkit-transition:.2s;-moz-transition:.2s}
+.goods-lines{position: relative; bottom: -720px; text-align:right;width:100%;height:60px;margin-top:20px;background-image:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/line-dashed.svg);background-repeat:no-repeat;background-size:1000px}
+.goods-list{width:1160px;margin:0 20px}
+.goods-lines2{bottom: -1040px;}
+.goods-ads{float:left;background:0 0;overflow:hidden;margin-top:15px}
+.goods-ads.goods-ads-v{height:690px;width:290px}
+.goods-ads.goods-ads-h{height:330px;width:570px;margin-right:10px}
+.goods-item{margin-bottom:8px;position:relative;float:left;width:285px;height:345px;top:0;margin-right:5px;transition:.2s;-webkit-transition:.2s;-moz-transition:.2s}
+.goods-item.hover{top:-30px}
+.goods-body{padding:15px;width:100%;background:#fff;position:absolute;top:0;left:0;transition:.2s;-webkit-transition:.2s;-moz-transition:.2s}
+.goods-item.hover .goods-body{height:415px;transform:translateY(-5px);box-shadow:0 0 10px 1px rgba(156,156,156,.4);-webkit-box-shadow:0 0 10px 1px rgba(156,156,156,.4);-moz-box-shadow:0 0 10px 1px rgba(156,156,156,.4);z-index:100}
+.goods-body>a{display:block}
+.goods-pic{height:255px;width:255px;margin-bottom:5px;overflow:hidden}
+.goods-name{width:100%;height:30px;line-height:25px;font-size:14px;font-weight:500;color:#000}
+.goods-item.hover .goods-name{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;white-space: initial;height: 50px;}
+.goods-desc,.goods-thumbs{height:0;overflow:hidden;transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out}
+.goods-item.hover .goods-desc{display:block;height:30px;color:#666;font-size:12px;line-height:15px}
+.goods-thumbs{background:#fff}
+.goods-item.hover .goods-thumbs{display:block;height:40px}
+.thumbs-btn{margin:0 2px;height:30px;display:none;vertical-align:middle;width:15px;position:relative;overflow:hidden}
+.goods-thumbs.more .thumbs-btn{display:inline-block}
+.thumbs-btn.next:before,.thumbs-btn.prev:before{content:'';height:9px;width:9px;border-left:2px solid #ccc;border-bottom:2px solid #ccc;position:absolute;top:9px;left:5px;transform:rotate(45deg)}
+.thumbs-btn.next:before{left:-1px;transform:rotate(-135deg)}
+.thumbs-list{height:30px;margin:5px 0;display:inline-block;overflow:hidden;vertical-align:middle;max-width:210px}
+.goods-thumbs.more .thumbs-list{max-width:195px}
+.footer{background:#000;color:#fff;overflow:hidden;padding-top:50px}
+.footer.footer-cn{background-color:#292929;height:265px}
+.footer.footer-com{background-color:#000;padding-top:50px;padding-bottom:50px}
+.footer a,.footer a:hover{color:#fff}
+.ft-slogan{width:250px;text-align:center;padding-top:20px}
+.footer-cn .ft-slogan{padding-top: 35px;}
+.ft-slogan img{width:auto}
+.ft-main{min-width:900px;max-width: 900px;}
+.server-list{display:inline-block;width:600px;vertical-align:middle;min-height:280px}
+.server-list>li{width:140px}
+.server-list>li>h4{height:17px;line-height:17px;text-align:center;font-size:16px;border-right:1px solid #fff}
+.server-list>li.last>h4,.server-list>li:last-child>h4{border-right:0}
+.server-list>li>a{display:block;font-size:14px;margin-top:15px;line-height:22px;padding-left:38px;font-weight:300}
+.custom-service{display:inline-block;ertical-align:middle;border-left:1px solid #fff;padding-left:90px;width: 450px;height: 100px;min-height: 100px;}
+.custom-service.first{border-left:0;}
+.custom-service>h4{font-size:16px;height:50px;line-height:50px;margin-top: 0;}
+.custom-service>h4.server-btn{cursor:pointer;margin-top: 0;}
+.custom-service .server-icon {display: inline-block;height: 30px;width: 30px;background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/service-w.svg) no-repeat;background-size: 100% auto;background-position: center;margin-left: 20px;vertical-align: middle;}
+.custom-service .server-tel{font-size:25px;display: inline-block;vertical-align: middle;margin-left: 20px;}
+.custom-service .weixin-code{display:block;width:90px;height:90px;margin-top:5px;background:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/qr-code.jpg) no-repeat;background-size:100% auto;background-position:center center}
+.ft-company{margin-top:50px;height:25px;line-height:25px;padding-left:32px;font-size:14px}
+.footer-cn .ft-company{margin-top: 40px;}
+.main-ft-inner{display:inline-block}
+.main-ft-title{height:34px;background:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacom/text-followus-w.svg) no-repeat;background-size:auto 100%;background-position:center center}
+.main-ft-inner p{color:#fff;font-size:20px;font-style:italic;line-height:40px;margin-top:5px}
+.main-ft-links{margin-top:10px}
+.main-ft-links li{display:inline-block}
+.main-ft-links li>a{display:inline-block;height:85px;width:85px;margin:0 15px;position:relative;background-repeat:no-repeat;background-size:80px auto;background-position:center center}
+.main-ft-links li.main-ft-weixin>a{background-image:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/wechat-w.svg)}
+.main-ft-links li.main-ft-weibo>a{background-image:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/weibo-w.svg)}
+.com-qr-code{display:none;position:absolute;width:180px;height:180px;z-index:100;right:-40px;bottom:100%;background:#fff}
+.com-qr-code:before{content:'';position:absolute;top:100%;left:50%;border-top:8px solid #fff;border-left:7px solid transparent;border-right:7px solid transparent;margin-left:-7px}
+a:hover .com-qr-code{display:block}
+body[data-type=kids] .main-ft{background-color:#ed7700}
+.main-ft-inner{display:inline-block}
+.main-ft-title{height:34px;background:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacom/text-followus-w.svg) no-repeat;background-size:auto 100%;background-position:center center}
+.main-ft-inner p{color:#fff;font-size:20px;font-style:italic;line-height:40px;margin-top:5px}
+.main-ft-links{margin-top:10px}
+.main-ft-links li{display:inline-block}
+.main-ft-links li>a{display:inline-block;height:85px;width:85px;margin:0 15px;position:relative;background-repeat:no-repeat;background-size:80px auto;background-position:center center}
+.main-ft-links li.main-ft-weixin>a{background-image:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/wechat-w.svg)}
+.main-ft-links li.main-ft-weibo>a{background-image:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/weibo-w.svg)}
+.main-ft{width:100%;background:#d00;text-align:center;padding:50px 0}
+body[data-type=kids] .main-ft{background-color:#ed7700}
+.com-qr-code{display:none;position:absolute;width:180px;height:180px;z-index:100;right:-40px;bottom:100%;background:#fff}
+.com-qr-code:before{content:'';position:absolute;top:100%;left:50%;border-top:8px solid #fff;border-left:7px solid transparent;border-right:7px solid transparent;margin-left:-7px}
+a:hover .com-qr-code{display:block}

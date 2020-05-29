@@ -39,11 +39,19 @@ $(function () {
         });
     }
     //关晓彤等移入移除
-   var hh=$(".hoverup-inner").find("a")
-    hh.mouseenter(function () {
-        $(".hoverup-inner").find("div").addClass("yiru");
-    }).mouseleave(function () {
-        $(".hoverup-inner").find("div").removeClass("yiru")
-    })
-
+       var hh = $(".hoverup-inner").find("a")
+        $(".hoverup-inner").on("mouseenter","a", function() {
+            $(this).find("div").addClass("yiru");
+            $(this ,"div").find('img').addClass("yiru1");
+        })
+        $(".hoverup-inner").on("mouseleave","a", ()=> {
+            hh.find("div").removeClass("yiru")
+            $(this ,"div").find('img').removeClass("yiru1");
+        })
+   
+            // hh.mouseenter( ()=> {
+            //     hh.find("div").addClass("yiru");
+            // }).mouseleave( ()=> {
+            //     hh.find("div").removeClass("yiru")
+            // })
 })
