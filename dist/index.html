@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>【安踏官方商城】-永不止步Keep Moving</title>
-    <link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/denglu.css">
+	
 	<link rel="stylesheet" href="./css/style.css">
+	
 	<script src="./js/jquery-1.10.1.min.js"></script>
+	<style>
+	
+	</style>
 </head>
 <body>
     <header class="header w-full J_header">
 		<div class="header-top w-full clearfix" >
 			<div class="header-topbar fr">
 				<div class="topbar-user">
-					<a href="/antacom/passport/login" title="登入">登入</a>&nbsp;或&nbsp;<a href="/antacom/passport/reg" title="注册">注册</a>&nbsp;ANTA会员
+					<div class="user" id="user" >
+						<ul id="ul11">
+							<a onclick= den.reupdate() style="cursor:pointer" >登录</a>&nbsp;或&nbsp;
+							<a onclick=den.zuce() style="cursor:pointer" >注册</a>&nbsp;ANTA会员
+						</ul>
+						<ul class="ul2" >
+							<a href="javascript:;">欢迎您，<b></b></a>
+							<a href="javascript:;" id="exit">退出</a>&nbsp;ANTA会员
+						</ul>
+					</div>
+					
 				</div>
 				<!-- <div class="topbar-help">
 					<a href="javascript:;" target="_blank" title="帮助">帮助</a>
@@ -34,7 +50,7 @@
 		<div class="header-nav w-full clearfix">
 			<div class="header-logo fl J_head_logo"><div class="logo-inner"><a href="/"><img src="https://anta-cn-web.obs.myhwclouds.com/theme/images/logo/logo-anta-r-02.svg" alt=""></a></div></div>
 			<ul class="nav-list fr">
-				<li class="nav-item first" data-type="man">
+				<li class="nav-item first " data-type="man">
 					<a href="/cms/man" target="_blank" title="男子">男子</a>
 					<div class="sub-nav-panel">
 						<div class="w-1920 scroll">
@@ -309,7 +325,7 @@
 			</ul>
 		</div>
     </header>
-    <div class="shengti">
+    <div class="shengti" style="background:black">
 		<div class="lunbo" id="lunboid">
 			<ul>
 				<li><img src="./img/index-banner-02.jpg" alt=""></li>
@@ -363,12 +379,93 @@
 				</div>
 				
 			</div>
+			<div>
+				<h3>
+					<span style="width: 130px;"><img src="./img/goods-title-hot-01.png" alt="" style="width: auto;height: 43px;"></span>
+				</h3>
+
+			</div>
+			<div class="goods">
+				    <div class="goods-ads goods-ads-v">
+                        <img src="./img/index-ads-01.jpg" alt="" >
+					</div>
+				 <ul>
+					
+				</ul> 
+				<div class="goods-lines">
+
+							</div>
+			</div>
+			
+			<div style="width: 100%;overflow: hidden;position: relative;" >
+				<img src="./img/index-03.jpg" style="vertical-align:bottom ;left: -190px;top: -50px; position: relative"alt="">
+			</div>
+			<div class="goods goods2">
+				<div class="goods-ads ">
+					<img src="./json/index-ads-02.jpg" alt="" >
+				</div>
+			 <ul>
+				
+			</ul> 
+			<div class="goods-lines goods-lines2" >
+
+						</div>
+		</div>
+			
+			<div style="width: 100%;overflow: hidden;position: relative;" >
+				<img src="./img/index-04.jpg" style="vertical-align:bottom ;left: -190px;top: 40px; position: relative ;margin-bottom: 40px;"alt="">
+			</div>
 			
 		</div>
-
-
+		<div class="main-ft">
+			<div class="main-ft-inner">
+				<h3 class="main-ft-title"></h3>
+				<p>抢先得知最新产品、独家消息及优惠资讯</p>
+				<ul class="main-ft-links">
+					 <li class="main-ft-weixin"><a href="javascript:;"><div class="com-qr-code"><img src="https://anta-cn-web.obs.myhwclouds.com/theme/images/antacom/com-qr-code.jpg" alt=""></div></a></li> 
+					<li class="main-ft-weibo"><a href="http://weibo.com/anta" target="_blank"></a></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+	
+	<footer class="footer footer-com w-full J_minicart_close">
+		<div class="ft-inner w-1280 clearfix">
+			<div class="ft-slogan fl"><img src="https://anta-cn-web.obs.myhwclouds.com/theme/images/logo/slogan-anta-r.svg" alt=""></div>
+			<div class="ft-main fr">
+				<ul class="links-line">
+					<li><a href="/english/aboutanta" target="_blank">安踏海外</a></li>
+					<li><a href="http://ir.anta.com/" target="_blank">安踏投资者关系</a></li>
+				</ul>
+				<div class="ft-company" style="height:auto">
+					<span>Copyright(C) 2020 by www.ANTA.com</span>
+					<span>©安踏体育用品有限公司版权所有</span>
+					<a target="_blank" href="/help/60.html">营业执照</a>
+					<a target="_blank" href="/help/61.html">开户许可证</a>
+					<br>
+					<a target="_blank" id="link-icp" href="http://www.beian.miit.gov.cn/">闽ICP备11020421号</a>
+					<!-- <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35058202000423">闽公网安备35058202000423号</a>
+					<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302033806">闽公网安备35020302033806号</a> -->
+				</div>
+				<ul class="links-line">
+					<li><a href="/antakids/introduction" target="_blank">安踏儿童</a></li>
+					<li><a href="http://www.fila.cn/" target="_blank">Fila</a></li>
+					<li><a href="javascript:;">Kolon Sport</a></li>
+					<li><a href="javascript:;">Descente</a></li>
+					<li><a href="javascript:;">Sprandi</a></li>
+					<li><a href="javascript:;">Kingkow</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script>
 		
-	</div>
+            
+	</script>
+	<script src="./js/denlu.js"></script>
+	<script src="./js/utils.js"></script>
+<script src="./js/zuce.js"></script>
 <script src="./js/lunbo.js"></script>
+<script src="./js/1json.js"></script>
 </body>
 </html>

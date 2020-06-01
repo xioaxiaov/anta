@@ -17,7 +17,7 @@ q:before,q:after { content:'';}
 abbr,acronym { border:0;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 html, body {background: #fff;width: 100%;min-width: 1280px;overflow-x: auto;height:auto;min-height: 100vh;}
-.w-full{width:100%;overflow: hidden;}
+.w-full{width:100%;}
 .w-1280{width: 1280px;margin:0 auto;overflow: hidden;}
 .w-1650{width:1650px;margin-left:-825px;left:50%;position:relative;overflow: hidden;}
 .w-1920{width:1920px;margin-left:-960px;left:50%;position:relative;overflow: hidden;}

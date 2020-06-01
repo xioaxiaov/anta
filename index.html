@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>【安踏官方商城】-永不止步Keep Moving</title>
-    <link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/denglu.css">
+	
 	<link rel="stylesheet" href="./css/style.css">
+	
 	<script src="./js/jquery-1.10.1.min.js"></script>
+	<style>
+	
+	</style>
 </head>
 <body>
     <header class="header w-full J_header">
 		<div class="header-top w-full clearfix" >
 			<div class="header-topbar fr">
 				<div class="topbar-user">
-					<a href="/antacom/passport/login" title="登入">登入</a>&nbsp;或&nbsp;<a href="/antacom/passport/reg" title="注册">注册</a>&nbsp;ANTA会员
+					<div class="user" id="user" >
+						<ul id="ul11">
+							<a onclick= den.reupdate() style="cursor:pointer" >登录</a>&nbsp;或&nbsp;
+							<a onclick=den.zuce() style="cursor:pointer" >注册</a>&nbsp;ANTA会员
+						</ul>
+						<ul class="ul2" >
+							<a href="javascript:;">欢迎您，<b></b></a>
+							<a href="javascript:;" id="exit">退出</a>&nbsp;ANTA会员
+						</ul>
+					</div>
+					
 				</div>
 				<!-- <div class="topbar-help">
 					<a href="javascript:;" target="_blank" title="帮助">帮助</a>
@@ -412,13 +428,7 @@
 			</div>
 		</div>
 		</div>
-	</div>
-		
-
-
-
-		
-	</div>
+	
 	<footer class="footer footer-com w-full J_minicart_close">
 		<div class="ft-inner w-1280 clearfix">
 			<div class="ft-slogan fl"><img src="https://anta-cn-web.obs.myhwclouds.com/theme/images/logo/slogan-anta-r.svg" alt=""></div>
@@ -448,6 +458,13 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		
+            
+	</script>
+	<script src="./js/denlu.js"></script>
+	<script src="./js/utils.js"></script>
+<script src="./js/zuce.js"></script>
 <script src="./js/lunbo.js"></script>
 <script src="./js/1json.js"></script>
 </body>
